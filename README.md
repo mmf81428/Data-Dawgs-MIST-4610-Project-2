@@ -37,6 +37,10 @@ The flight crew entity has a many-to-many relationship with the employee entity.
 
 Finally, one of our improvements was to add a mantinenance entity. An airplane can have many mainenance visits, but one specific mainenance visit belongs to a specific airplane. The addition of this entity is useful because it can be used to track the maintenance dates, types, and statuses of each of the aircraft.
 
+
+<img width="776" alt="Screenshot 2024-11-29 at 8 47 36 PM" src="https://github.com/user-attachments/assets/e855f3b3-2e5b-4972-89a3-0709a7a8d38c">
+
+
 # Improvements
 
 One of the first improvements of the model was the addition of the maintenance entity for a more thorough and complex model. Please see the description above for further information about this entity (last paragraph of the Data Model explanation).
@@ -45,4 +49,107 @@ The next improvement was adding the cardinalities to the model. This allows the 
 
 The group then made adjustments to correct the non-identifying and identifying relationships on the data model. For example, there were more identifying relationships than necessary on the previous model because some of the relationships already had unique ids that did not require the identifying relationship between entities. For instance, the previous model included an identifying relationship between ticket and trip which is unnecessary because ticket and trip entities each have their own unique identifying primary keys. The new data model reflects the changes in altering this relationship to non-identifying.
 
+Additionally, a new attribute was added to the trip entity. The "date" attribute was added to capture the specific date of each trip so that data related to days, months, and years can be analyzed. 
+
 Finally, the last modification made was that the total miles attribute was removed from the DeltaAccount entity. This attribute was removed because the total miles earned from a Delta account can already be determined using a query that joins DeltaAccount, passenger, and trip with the miles_earned attribute. 
+
+# Data Dictionary
+
+
+<img width="709" alt="Screenshot 2024-11-29 at 8 58 08 PM" src="https://github.com/user-attachments/assets/38ac5df8-c253-48f2-84df-993f7ce322b5">
+
+
+<img width="704" alt="Screenshot 2024-11-29 at 8 58 42 PM" src="https://github.com/user-attachments/assets/8d5cea3d-b094-40c6-8d83-47b3386255e2">
+
+
+<img width="714" alt="Screenshot 2024-11-29 at 8 58 59 PM" src="https://github.com/user-attachments/assets/0f6bb8c3-6d99-48a8-91ec-8b688e79d56f">
+
+
+<img width="763" alt="Screenshot 2024-11-29 at 8 59 44 PM" src="https://github.com/user-attachments/assets/59076b63-9235-459e-8b96-aff2fe687218">
+
+
+<img width="761" alt="Screenshot 2024-11-29 at 9 21 20 PM" src="https://github.com/user-attachments/assets/31218575-0dfd-476e-be8e-82d4f52a4741">
+
+
+<img width="708" alt="Screenshot 2024-11-29 at 9 21 39 PM" src="https://github.com/user-attachments/assets/842fabe5-3f06-42c3-8bc4-c2f57d7eb085">
+
+
+<img width="694" alt="Screenshot 2024-11-29 at 9 22 01 PM" src="https://github.com/user-attachments/assets/b9887544-996b-4b2a-93ae-790e2f8c669a">
+
+
+<img width="690" alt="Screenshot 2024-11-29 at 9 22 17 PM" src="https://github.com/user-attachments/assets/84c50336-c41e-40d8-8f00-6a4066838b91">
+
+
+<img width="695" alt="Screenshot 2024-11-29 at 9 22 31 PM" src="https://github.com/user-attachments/assets/e7e3fd95-2a4f-4b4d-8f58-542529113cac">
+
+
+<img width="698" alt="Screenshot 2024-11-29 at 9 23 10 PM" src="https://github.com/user-attachments/assets/2f6a8f0c-4027-4bbf-9c58-5704f3bd3eac">
+
+
+<img width="694" alt="Screenshot 2024-11-29 at 9 23 19 PM" src="https://github.com/user-attachments/assets/e4a99d16-f565-4d7f-b4a9-5dffdccc22fe">
+
+
+<img width="695" alt="Screenshot 2024-11-29 at 9 23 34 PM" src="https://github.com/user-attachments/assets/e58f0ebb-b490-46f2-8167-9b16e2677b88">
+
+
+# Queries
+
+1. Which flights generate the most revenue for Delta, and which airplane model are these flights using? 
+
+
+<img width="588" alt="Screenshot 2024-11-29 at 9 24 29 PM" src="https://github.com/user-attachments/assets/8106f872-c619-4909-a4e2-4b3f49fce201">
+
+This can give Delta an idea of what flights are the most important to prioritize and potentially add more of that flight to their schedule. Additionally, this can also give them a sense of which plans to invest more in as as comparing the the peformances of the different airplane models. This can help managers review wich models are the most used that Delta may want to continue to invest in or to help manage with expected maintenance.
+
+
+2. Which pilots have flown the most flights (been apart of the most flight crews) and how many miles have they flown overall? 
+
+
+<img width="701" alt="Screenshot 2024-11-29 at 9 28 10 PM" src="https://github.com/user-attachments/assets/1fdca3d1-2917-42ab-9792-2f569e747b8d">
+
+This can give Delta insight into how far their pilots are flying and how do their miles compare to the number of flights which will tell them if that pilot typically does short or long distance flights. This can also help with data regarding seniority and planning for retirements. Additionally, revealing these experienced pilots can help reveal wich pilots may be the most useful for training and mentoring other less experienced pilots.
+
+
+
+
+# Data Visualizations
+
+1. 
+<img width="604" alt="Screenshot 2024-11-29 at 9 39 43 PM" src="https://github.com/user-attachments/assets/54ddb9e9-5f99-4bca-9ee3-617bcc18e5e8">
+
+
+The visualization above models the number of maintenance visits (blue) and trips (orange) that occur throughout each month of the year. This could be helpful for management because it can help show the relationship between maintenance visits and trips (which typically stays relativly close together) and what to expect for the amount of maintenance and trips during the different times of the year. 
+
+
+
+
+
+# Implementation of the Database
+
+
+<img width="388" alt="Screenshot 2024-11-29 at 9 52 03 PM" src="https://github.com/user-attachments/assets/f4850605-358e-441a-aae1-5d852c80ebe4">
+
+
+<img width="536" alt="Screenshot 2024-11-29 at 9 52 17 PM" src="https://github.com/user-attachments/assets/a453a672-b6c9-4156-ba4d-dc7f69025aa6">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
