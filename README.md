@@ -192,6 +192,8 @@ This can allow Delta to be able to predict which states tend to have more bags b
 
 # Implementation of the Database
 
+*The relationships are described under the Data Model section*
+
 ### Employees (1) Table
 <img width="988" alt="Screenshot 2024-12-02 at 11 52 16 AM" src="https://github.com/user-attachments/assets/8ae12f91-b1f2-4f25-86fd-36c46759291e">
 
