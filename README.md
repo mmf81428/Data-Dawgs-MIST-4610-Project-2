@@ -46,13 +46,13 @@ We started by making adjustments based off the feedback from the first project. 
 
 The next improvement was adding the modality to the model. This provides more specific information about the relationships in the model. For instance, using the relationship between employee and flight_crew_employee, we see that employees do not have to be on the flight crews but flight crews have to be made up of employees. 
 
-Additionally, a new attribute was added to the trip entity. The "date" attribute was added to capture the specific date of each trip so that data related to days, months, and years can be analyzed. 
+Additionally, a new attribute was added to the trip entity. The "date" attribute was added to capture the specific date of each trip so that data related to days, months, and years can be analyzed. Now we can track the trips over time.
 
 One of the biggest changes we made to the model was the addition of the maintenance entity for a more thorough and complex model. Please see the description above for further information about this entity (last paragraph of the Data Model explanation).
 
 We then added a substantial amount of data to the model to make it more robust. For instance, the ticket entity returns 800 rows of data.
 
-Finally, the last modification made was that the total miles attribute was removed from the DeltaAccount entity. This attribute was removed because the total miles earned from a Delta account can already be determined using a query that joins DeltaAccount, passenger, and trip with the miles_earned attribute. 
+Finally, the total_miles attribute was removed from the DeltaAccount entity. This attribute was removed because the total miles earned from a Delta account can already be determined using a query that joins DeltaAccount, passenger, and trip with the miles_earned attribute. This eliminates the redundancy that total miles caused.
 
 # Data Dictionary
 
