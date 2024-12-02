@@ -124,10 +124,10 @@ This can show Delta which pilots are putting in the most work. If each pilot ear
 <img width="718" alt="Screenshot 2024-12-02 at 11 25 05 AM" src="https://github.com/user-attachments/assets/97928293-5f5d-4454-a4c9-b1947270dc46">
 
 #### Description- 
-This query calculates the weight of baggage that passengers have brought for different trips in relation to the total amount of baggage weight. Information about who the customer is is also provided by generating their full name and passenger ID.
+This query calculates the weight of baggage that passengers have brought for different trips in relation to the total amount of baggage weight. Information about who the customer is is also provided by generating their full name, passenger ID, and state of residence.
 
 #### Justification- 
-This can allow Delta to predict which customers tend to carry a large proportion of luggage on a flight. Knowing who these customers are can allow Delta to identify potential solutions in the case of having excess weight. Further, it lists the full name of the customer so Delta can know which customers they can potentially offer rewards or discounts for them to bring less bags. As a result, Delta can also make predictions based on the customers on the flight how heavy they will be traveling if they are a returning customer. 
+This can allow Delta to predict which customers tend to carry a large proportion of luggage on a flight. Knowing who these customers are can allow Delta to identify potential solutions in the case of having excess weight. Further, it lists the full name of the customer so Delta can know which customers they can potentially offer rewards or discounts for them to bring less bags. As a result, Delta can also make predictions based on the customers on the flight how heavy they will be traveling if they are a returning customer and anticipate more luggage for certain states. 
 
 ### 4- Which airplanes have the most maintenance performed on them?
 
