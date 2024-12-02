@@ -1,7 +1,8 @@
 # Data-Dawgs-MIST-4610-Project-2
 
 # Team Name
-15058 Data Dawgs
+Data Dawgs
+CRN: 15058 
 
 # Team Members:
 1. Anabelle Dolhun - [@Anabelledolhun](https://www.github.com/Anabelledolhun)
