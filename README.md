@@ -160,6 +160,9 @@ It is important for Delta to know which season will contain the most travel acti
 
 ### 1- Number of Maintenances and Trips per month
 
+![maintenance](https://github.com/user-attachments/assets/d61740be-3112-4275-bebf-160957bb5585)
+
+
 #### Description-
 The visualization above models the number of maintenance visits (blue) and trips (orange) that occur throughout each month of the year. It indicates how the number of maintenance and number of trips can relate to one another. This visualization also provides information about which months have more travel activity, and therefore maintenance activity as a result. 
 
@@ -168,6 +171,9 @@ It is important for Delta to know which months demand more plane usage. Knowing 
 
 ### 2- Years at Delta by Job Title
 
+![years_at_delta](https://github.com/user-attachments/assets/844dacd0-0506-470b-b9b9-41be66c6ac0f)
+
+
 #### Description-
 The number of years at Delta according to each job title shows the maximum, minimum, and average amount of years that the employees have worked at Delta, categorized by different job titles.
 
@@ -175,6 +181,8 @@ The number of years at Delta according to each job title shows the maximum, mini
 This gives delta an idea about the amount of time that each worker works there. This allows them to compare which positions have a higher retention rate. As a result, Delta can have a better idea of their employee turnover rate and gain an understanding of when they need to look for new applicants. It is important for Delta to anticipate this so they can avoid a shortage of labor during those turnover periods. 
 
 ### 3- Baggage by State Residence and Membership
+
+![status](https://github.com/user-attachments/assets/c748817a-ba80-4a61-915b-1a81bb9f526c)
 
 #### Description-
 The baggage count by Delta Account status shows a total of the amount of bags that passengers bring according to their state of residence. It is further categorized into whether they are a member or not. The orange color is different Delta Account statuses while the blue are the null values (or members who do not have accounts). The data is sorted by the top seven states with the most baggage.
