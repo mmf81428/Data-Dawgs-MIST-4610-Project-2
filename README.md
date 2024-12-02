@@ -109,7 +109,7 @@ This can give Delta an idea of what flights are the most important to prioritize
 
 This can give Delta insight into how far their pilots are flying and how do their miles compare to the number of flights which will tell them if that pilot typically does short or long distance flights. This can also help with data regarding seniority and planning for retirements. Additionally, revealing these experienced pilots can help reveal wich pilots may be the most useful for training and mentoring other less experienced pilots.
 
-
+3. 
 
 
 # Data Visualizations
