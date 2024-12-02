@@ -116,6 +116,11 @@ This can give Delta insight into how far their pilots are flying and how do thei
 
 # Data Visualizations
 
+# Dashboard
+
+![viz_project_third](https://github.com/user-attachments/assets/28d33281-9d05-417d-9d2e-cdc52d9261b9)
+
+
 1. 
 <img width="604" alt="Screenshot 2024-11-29 at 9 39 43 PM" src="https://github.com/user-attachments/assets/54ddb9e9-5f99-4bca-9ee3-617bcc18e5e8">
 
