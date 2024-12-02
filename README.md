@@ -96,18 +96,20 @@ Finally, the last modification made was that the total miles attribute was remov
 
 # Queries
 
-1. Which flights generate the most revenue for Delta, and which airplane model are these flights using? 
+### 1- Which flights generate the most revenue for Delta? 
+
+![revenue](https://github.com/user-attachments/assets/85c3f46a-1648-4c4e-8c0a-00b716350eb9)
+
+Description-
+This query calculates which flights generate the most Revenue for Delta Airlines. Because some flights are taken more than others, this figure is communicated using the average revenue per instance of the flight. Information about the airplane model is also given. 
+ 
+Justification-
+This information is valuable for Delta to know because they can know which flights to prioritize their best service on and advertise. Additionally, this can give Delta an idea about which planes are preferred and help them guide their capital investments by showing which planes often generate the most revenue. 
 
 
-<img width="588" alt="Screenshot 2024-11-29 at 9 24 29 PM" src="https://github.com/user-attachments/assets/8106f872-c619-4909-a4e2-4b3f49fce201">
+### 2- Which Pilots have flown the most flights and how far?
 
-This can give Delta an idea of what flights are the most important to prioritize and potentially add more of that flight to their schedule. Additionally, this can also give them a sense of which plans to invest more in as as comparing the the peformances of the different airplane models. This can help managers review wich models are the most used that Delta may want to continue to invest in or to help manage with expected maintenance.
-
-
-2. Which pilots have flown the most flights (been apart of the most flight crews) and how many miles have they flown overall? 
-
-
-<img width="701" alt="Screenshot 2024-11-29 at 9 28 10 PM" src="https://github.com/user-attachments/assets/1fdca3d1-2917-42ab-9792-2f569e747b8d">
+![flights](https://github.com/user-attachments/assets/b7b17b91-ffc5-4d09-abf6-e4ba1a9201f6)
 
 This can give Delta insight into how far their pilots are flying and how do their miles compare to the number of flights which will tell them if that pilot typically does short or long distance flights. This can also help with data regarding seniority and planning for retirements. Additionally, revealing these experienced pilots can help reveal wich pilots may be the most useful for training and mentoring other less experienced pilots.
 
