@@ -98,7 +98,7 @@ Finally, the last modification made was that the total miles attribute was remov
 
 ### 1- Which flights generate the most revenue for Delta? 
 
-![revenue](https://github.com/user-attachments/assets/85c3f46a-1648-4c4e-8c0a-00b716350eb9)
+<img width="758" alt="Screenshot 2024-12-02 at 11 27 44 AM" src="https://github.com/user-attachments/assets/5b1187f2-6f00-47b8-a54b-ec96430e6d11">
 
 Description-
 This query calculates which flights generate the most Revenue for Delta Airlines. Because some flights are taken more than others, this figure is communicated using the average revenue per instance of the flight. Information about the airplane model is also given. 
@@ -109,11 +109,40 @@ This information is valuable for Delta to know because they can know which fligh
 
 ### 2- Which Pilots have flown the most flights and how far?
 
-![flights](https://github.com/user-attachments/assets/b7b17b91-ffc5-4d09-abf6-e4ba1a9201f6)
+<img width="718" alt="Screenshot 2024-12-02 at 11 26 33 AM" src="https://github.com/user-attachments/assets/9ae60a28-4bd7-4a71-9288-cbdd2afc95db">
 
 This can give Delta insight into how far their pilots are flying and how do their miles compare to the number of flights which will tell them if that pilot typically does short or long distance flights. This can also help with data regarding seniority and planning for retirements. Additionally, revealing these experienced pilots can help reveal wich pilots may be the most useful for training and mentoring other less experienced pilots.
 
-3. 
+### 3- How do Passenger's baggage weight compare to the Total Baggage Weight?
+
+<img width="718" alt="Screenshot 2024-12-02 at 11 25 05 AM" src="https://github.com/user-attachments/assets/97928293-5f5d-4454-a4c9-b1947270dc46">
+
+Description- 
+This query calculates the weight of baggage that passengers have brought for different trips in relation to the total amount of baggage weight. Information about who the customer is is also provided by generating their full name and passenger ID.
+
+Justification- 
+This can allow Delta to predict which customers tend to carry a large proportion of luggage on a flight. Knowing who these customers are can allow Delta to identify potential solutions in the case of having excess weight. Further, it lists the full name of the customer so Delta can know which customers they can potentially offer rewards or discounts for them to bring less bags. As a result, Delta can also make predictions based on the customers on the flight how heavy they will be traveling if they are a returning customer. 
+
+### 4- Which airplanes have the most maintenance performed on them?
+
+<img width="718" alt="Screenshot 2024-12-02 at 11 22 44 AM" src="https://github.com/user-attachments/assets/bdcbb99c-1153-4440-a2b3-d0791bd62cfc">
+
+Description- 
+This query lists which airplanes have the most maintenance performed on them. Additionally, it also provides which specific airplane and its model. The type of maintenance is also listed to convey whether the maintenance is performed due to use (such as safety checks/inspections) or if it is due to wear-and-tear (such as repairs). 
+
+Justification- 
+Delta can get an idea of which planes tend to cause more issues. They can potentially identify a pattern about which model usually has more issues than others. As a result, Delta can take this into consideration when choosing which airplanes to use and which ones they want to invest in.
+
+### 5- Which seasons have the most travel activity?
+
+<img width="718" alt="Screenshot 2024-12-02 at 11 24 11 AM" src="https://github.com/user-attachments/assets/98a005d1-ef4f-4c97-97d5-f17d6cb5583b">
+
+Description-
+This query starts by calculating which months correspond to which seasons. It then returns the total number of trips for that season and ranks them by trips to show which season contains the most trips and therefore travel activity.
+ 
+Justification-
+It is important for Delta to know which season will contain the most travel activity so they can prepare and plan accordingly prior to when they are actually busy. This can allow them to avoid delays, shortages, and other issues that can result from a lack of preparation. We chose to evaluate the trips based on the season, as opposed to months,  to view this on a broader scale and convey overall trends.  
+
 
 
 ## Data Visualizations
