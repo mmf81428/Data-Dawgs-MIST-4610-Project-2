@@ -114,21 +114,36 @@ This can give Delta insight into how far their pilots are flying and how do thei
 3. 
 
 
-# Data Visualizations
+## Data Visualizations
 
-# Dashboard
+## Dashboard
 
 ![viz_project_third](https://github.com/user-attachments/assets/28d33281-9d05-417d-9d2e-cdc52d9261b9)
 
 
-1. 
-<img width="604" alt="Screenshot 2024-11-29 at 9 39 43 PM" src="https://github.com/user-attachments/assets/54ddb9e9-5f99-4bca-9ee3-617bcc18e5e8">
+# 1- Number of Maintenances and Trips per month
 
+Description-
+The visualization above models the number of maintenance visits (blue) and trips (orange) that occur throughout each month of the year. It indicates how the number of maintenance and number of trips can relate to one another. This visualization also provides information about which months have more travel activity, and therefore maintenance activity as a result. 
 
-The visualization above models the number of maintenance visits (blue) and trips (orange) that occur throughout each month of the year. This could be helpful for management because it can help show the relationship between maintenance visits and trips (which typically stays relativly close together) and what to expect for the amount of maintenance and trips during the different times of the year. 
+Justification-
+It is important for Delta to know which months demand more plane usage. Knowing that there is a relationship between the number of maintenance and the number of trips in a given month can show Delta when to prepare for more busy travel months and when they will need to make sure they have an extra supply of maintenance workers. 
 
+# 2- Years at Delta by Job Title
 
+Description-
+The number of years at Delta according to each job title shows the maximum, minimum, and average amount of years that the employees have worked at Delta, categorized by different job titles.
 
+Justification-
+This gives delta an idea about the amount of time that each worker works there. This allows them to compare which positions have a higher retention rate. As a result, Delta can have a better idea of their employee turnover rate and gain an understanding of when they need to look for new applicants. It is important for Delta to anticipate this so they can avoid a shortage of labor during those turnover periods. 
+
+# 3- Baggage by State Residence and Membership
+
+Description-
+The baggage count by Delta Account status shows a total of the amount of bags that passengers bring according to their state of residence. It is further categorized into whether they are a member or not. The orange color is different Delta Account statuses while the blue are the null values (or members who do not have accounts). The data is sorted by the top seven states with the most baggage.
+
+Justification- 
+This can allow Delta to be able to predict which states tend to have more bags brought on their flights. They can make additional predictions based on the general proportions of members versus nonmembers on the flight. It is important for Delta to have an understanding of how many bags to anticipate on certain flights and choose a plane with proper storage. 
 
 
 # Implementation of the Database
