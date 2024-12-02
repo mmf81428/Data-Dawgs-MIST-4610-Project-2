@@ -151,7 +151,7 @@ It is important for Delta to know which season will contain the most travel acti
 
 
 
-## Data Visualizations
+# Data Visualizations
 
 ## Dashboard
 
