@@ -193,30 +193,36 @@ This can allow Delta to be able to predict which states tend to have more bags b
 
 # Implementation of the Database
 
+### Employees (1) Table
+<img width="988" alt="Screenshot 2024-12-02 at 11 52 16 AM" src="https://github.com/user-attachments/assets/8ae12f91-b1f2-4f25-86fd-36c46759291e">
 
-<img width="388" alt="Screenshot 2024-11-29 at 9 52 03 PM" src="https://github.com/user-attachments/assets/f4850605-358e-441a-aae1-5d852c80ebe4">
+### Flight_Crew_Employees (2) and Flight_crew (3) Tables 
+<img width="914" alt="Screenshot 2024-12-02 at 11 55 17 AM" src="https://github.com/user-attachments/assets/2507ac1e-8e02-4682-83ce-49ee7d02328d">
 
+### Airplane (4) Table
+<img width="1027" alt="Screenshot 2024-12-02 at 11 56 03 AM" src="https://github.com/user-attachments/assets/4cb19c2c-3c1e-4762-9134-608efb97def4">
 
-<img width="536" alt="Screenshot 2024-11-29 at 9 52 17 PM" src="https://github.com/user-attachments/assets/a453a672-b6c9-4156-ba4d-dc7f69025aa6">
+### Maintenance (5) Table
+<img width="997" alt="Screenshot 2024-12-02 at 11 57 10 AM" src="https://github.com/user-attachments/assets/ce30dcc9-4c85-491e-9994-ca2c46de3f8a">
 
+### Flight (6) Table
+<img width="928" alt="Screenshot 2024-12-02 at 11 58 47 AM" src="https://github.com/user-attachments/assets/3d54e9fc-613f-4184-966e-35731ca60dd8">
 
+### Airport (7) Table
+<img width="1025" alt="Screenshot 2024-12-02 at 11 59 59 AM" src="https://github.com/user-attachments/assets/b612e61d-81f2-49e8-904d-a736e3779670">
 
+### Ticket (8) Table
+<img width="932" alt="Screenshot 2024-12-02 at 12 01 01 PM" src="https://github.com/user-attachments/assets/679bfc9c-d0f6-41b1-9d42-ae92090d1917">
 
+### Trip (9) Table
+<img width="1004" alt="Screenshot 2024-12-02 at 12 01 45 PM" src="https://github.com/user-attachments/assets/d326b29a-0267-4b95-81f9-0bd13c01e94a">
 
+### Baggage (10) Table
+<img width="1035" alt="Screenshot 2024-12-02 at 12 02 43 PM" src="https://github.com/user-attachments/assets/1883c421-08bf-4e04-b1ed-5689c5184e2b">
 
+### Passenger (11) Table
+<img width="1014" alt="Screenshot 2024-12-02 at 12 03 13 PM" src="https://github.com/user-attachments/assets/b712a1f4-72a9-42df-a993-3ff8986110d9">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### DeltaAccount (12) Table
+<img width="986" alt="Screenshot 2024-12-02 at 12 03 49 PM" src="https://github.com/user-attachments/assets/59a42ab9-ed48-4985-80e1-0d1e282ab3e3">
 
