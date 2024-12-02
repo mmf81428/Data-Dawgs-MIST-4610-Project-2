@@ -100,10 +100,10 @@ Finally, the last modification made was that the total miles attribute was remov
 
 <img width="758" alt="Screenshot 2024-12-02 at 11 27 44 AM" src="https://github.com/user-attachments/assets/5b1187f2-6f00-47b8-a54b-ec96430e6d11">
 
-Description-
+#### Description-
 This query calculates which flights generate the most Revenue for Delta Airlines. Because some flights are taken more than others, this figure is communicated using the average revenue per instance of the flight. Information about the airplane model is also given. 
  
-Justification-
+#### Justification-
 This information is valuable for Delta to know because they can know which flights to prioritize their best service on and advertise. Additionally, this can give Delta an idea about which planes are preferred and help them guide their capital investments by showing which planes often generate the most revenue. 
 
 
@@ -111,36 +111,41 @@ This information is valuable for Delta to know because they can know which fligh
 
 <img width="718" alt="Screenshot 2024-12-02 at 11 26 33 AM" src="https://github.com/user-attachments/assets/9ae60a28-4bd7-4a71-9288-cbdd2afc95db">
 
-This can give Delta insight into how far their pilots are flying and how do their miles compare to the number of flights which will tell them if that pilot typically does short or long distance flights. This can also help with data regarding seniority and planning for retirements. Additionally, revealing these experienced pilots can help reveal wich pilots may be the most useful for training and mentoring other less experienced pilots.
+#### Description-
+This query calculates the amount of miles traveled on each flight for each pilot. This is done by finding their total number of flights and total mileage. Information about their employee number and full name are given. 
+ 
+#### Justification-
+This can show Delta which pilots are putting in the most work. If each pilot earns the same amount of salary (fixed) per year, this can allow Delta to see which pilots should be prioritized in the case of giving out bonuses. In the case where pilots earn commission, this can give Delta a foundation to base their salaries off of. Additionally, by incorporating their total mileage, this can show Delta which Pilots tend to do more short distance or a few long distance trips which can allow them to categorize them so they know which pilots to assign to certain flights (whether its short or long distance). 
+
 
 ### 3- How do Passenger's baggage weight compare to the Total Baggage Weight?
 
 <img width="718" alt="Screenshot 2024-12-02 at 11 25 05 AM" src="https://github.com/user-attachments/assets/97928293-5f5d-4454-a4c9-b1947270dc46">
 
-Description- 
+#### Description- 
 This query calculates the weight of baggage that passengers have brought for different trips in relation to the total amount of baggage weight. Information about who the customer is is also provided by generating their full name and passenger ID.
 
-Justification- 
+#### Justification- 
 This can allow Delta to predict which customers tend to carry a large proportion of luggage on a flight. Knowing who these customers are can allow Delta to identify potential solutions in the case of having excess weight. Further, it lists the full name of the customer so Delta can know which customers they can potentially offer rewards or discounts for them to bring less bags. As a result, Delta can also make predictions based on the customers on the flight how heavy they will be traveling if they are a returning customer. 
 
 ### 4- Which airplanes have the most maintenance performed on them?
 
 <img width="718" alt="Screenshot 2024-12-02 at 11 22 44 AM" src="https://github.com/user-attachments/assets/bdcbb99c-1153-4440-a2b3-d0791bd62cfc">
 
-Description- 
+#### Description- 
 This query lists which airplanes have the most maintenance performed on them. Additionally, it also provides which specific airplane and its model. The type of maintenance is also listed to convey whether the maintenance is performed due to use (such as safety checks/inspections) or if it is due to wear-and-tear (such as repairs). 
 
-Justification- 
+#### Justification- 
 Delta can get an idea of which planes tend to cause more issues. They can potentially identify a pattern about which model usually has more issues than others. As a result, Delta can take this into consideration when choosing which airplanes to use and which ones they want to invest in.
 
 ### 5- Which seasons have the most travel activity?
 
 <img width="718" alt="Screenshot 2024-12-02 at 11 24 11 AM" src="https://github.com/user-attachments/assets/98a005d1-ef4f-4c97-97d5-f17d6cb5583b">
 
-Description-
+#### Description-
 This query starts by calculating which months correspond to which seasons. It then returns the total number of trips for that season and ranks them by trips to show which season contains the most trips and therefore travel activity.
  
-Justification-
+#### Justification-
 It is important for Delta to know which season will contain the most travel activity so they can prepare and plan accordingly prior to when they are actually busy. This can allow them to avoid delays, shortages, and other issues that can result from a lack of preparation. We chose to evaluate the trips based on the season, as opposed to months,  to view this on a broader scale and convey overall trends.  
 
 
@@ -154,26 +159,26 @@ It is important for Delta to know which season will contain the most travel acti
 
 ### 1- Number of Maintenances and Trips per month
 
-Description-
+#### Description-
 The visualization above models the number of maintenance visits (blue) and trips (orange) that occur throughout each month of the year. It indicates how the number of maintenance and number of trips can relate to one another. This visualization also provides information about which months have more travel activity, and therefore maintenance activity as a result. 
 
-Justification-
+#### Justification-
 It is important for Delta to know which months demand more plane usage. Knowing that there is a relationship between the number of maintenance and the number of trips in a given month can show Delta when to prepare for more busy travel months and when they will need to make sure they have an extra supply of maintenance workers. 
 
 ### 2- Years at Delta by Job Title
 
-Description-
+#### Description-
 The number of years at Delta according to each job title shows the maximum, minimum, and average amount of years that the employees have worked at Delta, categorized by different job titles.
 
-Justification-
+#### Justification-
 This gives delta an idea about the amount of time that each worker works there. This allows them to compare which positions have a higher retention rate. As a result, Delta can have a better idea of their employee turnover rate and gain an understanding of when they need to look for new applicants. It is important for Delta to anticipate this so they can avoid a shortage of labor during those turnover periods. 
 
 ### 3- Baggage by State Residence and Membership
 
-Description-
+#### Description-
 The baggage count by Delta Account status shows a total of the amount of bags that passengers bring according to their state of residence. It is further categorized into whether they are a member or not. The orange color is different Delta Account statuses while the blue are the null values (or members who do not have accounts). The data is sorted by the top seven states with the most baggage.
 
-Justification- 
+#### Justification- 
 This can allow Delta to be able to predict which states tend to have more bags brought on their flights. They can make additional predictions based on the general proportions of members versus nonmembers on the flight. It is important for Delta to have an understanding of how many bags to anticipate on certain flights and choose a plane with proper storage. 
 
 
