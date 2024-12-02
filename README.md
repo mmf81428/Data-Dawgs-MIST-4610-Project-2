@@ -184,6 +184,7 @@ This gives delta an idea about the amount of time that each worker works there. 
 
 ![status](https://github.com/user-attachments/assets/c748817a-ba80-4a61-915b-1a81bb9f526c)
 
+
 #### Description-
 The baggage count by Delta Account status shows a total of the amount of bags that passengers bring according to their state of residence. It is further categorized into whether they are a member or not. The orange color is different Delta Account statuses while the blue are the null values (or members who do not have accounts). The data is sorted by the top seven states with the most baggage.
 
