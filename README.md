@@ -162,7 +162,7 @@ It is important for Delta to know which season will contain the most travel acti
 
 
 #### Description-
-The visualization above models the number of maintenance visits (blue) and trips (orange) that occur throughout each month of the year. It indicates how the number of maintenance and number of trips can relate to one another. This visualization also provides information about which months have more travel activity, and therefore maintenance activity as a result. 
+The visualization above models the number of maintenance visits (blue) and trips (orange) that occur throughout each month of the year. It indicates how the number of maintenance visits and number of trips can relate to one another. This visualization also provides information about which months have more travel activity, and therefore maintenance activity as a result. 
 
 #### Justification-
 It is important for Delta to know which months demand more plane usage. Knowing that there is a relationship between the number of maintenance and the number of trips in a given month can show Delta when to prepare for more busy travel months and when they will need to make sure they have an extra supply of maintenance workers. 
