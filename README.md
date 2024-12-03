@@ -176,7 +176,7 @@ It is important for Delta to know which months demand more plane usage. Knowing 
 The number of years at Delta according to each job title shows the maximum, minimum, and average amount of years that the employees have worked at Delta, categorized by different job titles.
 
 #### Justification-
-This gives delta an idea about the amount of time that each worker works there. This allows them to compare which positions have a higher retention rate. As a result, Delta can have a better idea of their employee turnover rate and gain an understanding of when they need to look for new applicants. It is important for Delta to anticipate this so they can avoid a shortage of labor during those turnover periods. 
+This gives Delta an idea about the amount of time that each worker works there. This allows them to compare which positions have a higher retention rate. As a result, Delta can have a better idea of their employee turnover rate and gain an understanding of when they need to look for new applicants. It is important for Delta to anticipate this so they can avoid a shortage of labor during those turnover periods. 
 
 ### 3- Baggage by State Residence and Membership
 
@@ -187,7 +187,7 @@ This gives delta an idea about the amount of time that each worker works there. 
 The baggage count by Delta Account status shows a total of the amount of bags that passengers bring according to their state of residence. It is further categorized into whether they are a member or not. The orange color is different Delta Account statuses while the blue are the null values (or members who do not have accounts). The data is sorted by the top seven states with the most baggage.
 
 #### Justification- 
-This can allow Delta to be able to predict which states tend to have more bags brought on their flights. They can make additional predictions based on the general proportions of members versus nonmembers on the flight. It is important for Delta to have an understanding of how many bags to anticipate on certain flights and choose a plane with proper storage. 
+This can allow Delta to be able to predict which states tend to have more bags brought on their flights. They can make additional predictions based on the general proportions of members versus nonmembers on the flight. It is important for Delta to have an understanding of how many bags to anticipate on certain flights and choose a plane with proper storage as well as an expectation for the amount of required fuel. 
 
 
 # Implementation of the Database
