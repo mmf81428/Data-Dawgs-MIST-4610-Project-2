@@ -84,7 +84,7 @@ Finally, the total_miles attribute was removed from the DeltaAccount entity. Thi
 <img width="695" alt="Screenshot 2024-11-29 at 9 22 31 PM" src="https://github.com/user-attachments/assets/e7e3fd95-2a4f-4b4d-8f58-542529113cac">
 
 
-<img width="698" alt="Screenshot 2024-11-29 at 9 23 10 PM" src="https://github.com/user-attachments/assets/2f6a8f0c-4027-4bbf-9c58-5704f3bd3eac">
+<img width="692" alt="Screenshot 2024-12-03 at 12 04 09 PM" src="https://github.com/user-attachments/assets/8e2e8382-def1-4b56-bd04-31e5ee181f48">
 
 
 <img width="694" alt="Screenshot 2024-11-29 at 9 23 19 PM" src="https://github.com/user-attachments/assets/e4a99d16-f565-4d7f-b4a9-5dffdccc22fe">
