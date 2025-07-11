@@ -100,7 +100,7 @@ Finally, the total_miles attribute was removed from the DeltaAccount entity. Thi
 <img width="758" alt="Screenshot 2024-12-02 at 11 27 44 AM" src="https://github.com/user-attachments/assets/5b1187f2-6f00-47b8-a54b-ec96430e6d11">
 
 #### Description-
-This query calculates which flights generate the most Revenue for Delta Airlines. Because some flights are taken more than others, this figure is communicated using the average revenue per instance of the flight. Information about the airplane model is also given. 
+This query calculates which flights generate the most Revenue for Delta Air Lines. Because some flights are taken more than others, this figure is communicated using the average revenue per instance of the flight. Information about the airplane model is also given. 
  
 #### Justification-
 This information is valuable for Delta to know because they can know which flights to prioritize their best service on and advertise. Additionally, this can give Delta an idea about which planes are preferred and help them guide their capital investments by showing which planes often generate the most revenue. 
